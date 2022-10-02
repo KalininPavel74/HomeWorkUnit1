@@ -8,7 +8,7 @@ double doubleN = 0, doubleN1 = 0, doubleN2 = 0, doubleN3 = 0;
 bool isRepeat = true; 
 string taskName = "";
 
-if(false) {
+//if(false) { // выборочно отключить для отладки
 
 taskName = "Задание  №1. По двум заданным числам проверять является ли первое квадратом второго.";
 isRepeat = true;
@@ -133,7 +133,7 @@ while(isRepeat) {
     Console.Write("Введите целое трехзначное число (ххх): ");
     intN1 = int.Parse(Console.ReadLine() ?? "0");
     intN = intN1 - (intN1/10)*10;
-    Console.WriteLine("Последняя цифра трехзначного числа "+intN1+" = "+intN);
+    Console.WriteLine("Последняя цифра трехзначного числа (если считать с лева на право) "+intN1+" = "+intN);
     Console.Write("Выполнить задание еще раз? (0-нет, 1-да):");
     int n = int.Parse(Console.ReadLine() ?? "0");
     isRepeat = n != 0;
@@ -148,7 +148,7 @@ while(isRepeat) {
     intN1 = int.Parse(Console.ReadLine() ?? "0");
     intN = intN1 - (intN1/100)*100;
     intN = intN/10;
-    Console.WriteLine("Вторая цифра трехзначного числа "+intN1+" = "+intN);
+    Console.WriteLine("Вторая цифра (если считать с лева на право) трехзначного числа "+intN1+" = "+intN);
     Console.Write("Выполнить задание еще раз? (0-нет, 1-да):");
     int n = int.Parse(Console.ReadLine() ?? "0");
     isRepeat = n != 0;
@@ -168,7 +168,6 @@ while(isRepeat) {
     isRepeat = n != 0;
 }    
 
-} //---
 
 taskName = "Задание №10. Удалить вторую цифру трёхзначного числа.";
 while(isRepeat) {
@@ -182,7 +181,35 @@ while(isRepeat) {
     isRepeat = n != 0;
 }    
 
+
 taskName = "Задание №11. Выяснить, кратно ли число заданному, если нет, вывести остаток.";
+while(isRepeat) {
+    Console.WriteLine("----------------------------\n\r"+taskName);
+    Console.Write("Введите первое целое число: ");
+    intN1 = int.Parse(Console.ReadLine() ?? "0");
+    Console.Write("Введите второе целое число: ");
+    intN2 = int.Parse(Console.ReadLine() ?? "0");
+    intN = intN1%intN2;
+    if(intN == 0) Console.WriteLine("Число "+intN2+" кратно числу "+intN1);
+    else          Console.WriteLine("Число "+intN2+" НЕ кратно числу "+intN1+" и имеет остаток "+intN);
+    Console.Write("Выполнить задание еще раз? (0-нет, 1-да):");
+    int n = int.Parse(Console.ReadLine() ?? "0");
+    isRepeat = n != 0;
+}    
 
 
 taskName = "Задание №12. Найти третью цифру числа или сообщить, что её нет.";
+isRepeat = true;
+while(isRepeat) {
+    Console.WriteLine("----------------------------\n\r"+taskName);
+    Console.Write("Введите действующее число: ");
+    string s = Console.ReadLine() ?? "0";
+    // оставить в действующем числе только цифры ([0-9])
+    string s2 = s.Replace("-","").Replace(".","").Replace(",","");
+    if(s2.Length<3) Console.WriteLine("Третья цифра (если считать с лева на право) в числе "+s+" отсутствует.");
+    else            Console.WriteLine("Третья цифра (если считать с лева на право) числа "+s+" = "+s2[3-1]);
+    Console.Write("Выполнить задание еще раз? (0-нет, 1-да):");
+    int n = int.Parse(Console.ReadLine() ?? "0");
+    isRepeat = n != 0;
+}    
+
