@@ -8,6 +8,8 @@ double doubleN = 0, doubleN1 = 0, doubleN2 = 0, doubleN3 = 0;
 bool isRepeat = true; 
 string taskName = "";
 
+if(false) {
+
 taskName = "Задание  №1. По двум заданным числам проверять является ли первое квадратом второго.";
 isRepeat = true;
 while(isRepeat) {
@@ -71,9 +73,23 @@ while(isRepeat) {
     isRepeat = n != 0;
 }    
 
+} //---
 
 taskName = "Задание  №4. Выяснить является ли число чётным.";
-
+isRepeat = true;
+while(isRepeat) {
+    Console.WriteLine("----------------------------\n\r"+taskName);
+    Console.Write("Введите целое число: ");
+    intN1 = int.Parse(Console.ReadLine() ?? "0");
+    if(intN1%2 == 0) {
+        Console.WriteLine("Число "+intN1+" является четным.");
+    } else {
+        Console.WriteLine("Число "+intN1+" НЕ является четным.");
+    }
+    Console.Write("Выполнить задание еще раз? (0-нет, 1-да):");
+    int n = int.Parse(Console.ReadLine() ?? "0");
+    isRepeat = n != 0;
+}    
 
 taskName = "Задание  №5. Показать числа от -N до N.";
 
