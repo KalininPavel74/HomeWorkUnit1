@@ -73,7 +73,6 @@ while(isRepeat) {
     isRepeat = n != 0;
 }    
 
-} //---
 
 taskName = "Задание  №4. Выяснить является ли число чётным.";
 isRepeat = true;
@@ -91,7 +90,23 @@ while(isRepeat) {
     isRepeat = n != 0;
 }    
 
+} //---
+
+
 taskName = "Задание  №5. Показать числа от -N до N.";
+isRepeat = true;
+while(isRepeat) {
+    Console.WriteLine("----------------------------\n\r"+taskName);
+    Console.Write("Введите целое число: ");
+    intN1 = int.Parse(Console.ReadLine() ?? "0");
+    for(int i=(-1)*intN1; i<=intN1; i++) {
+        Console.Write(i+" ");
+    }
+    Console.WriteLine("");
+    Console.Write("Выполнить задание еще раз? (0-нет, 1-да):");
+    int n = int.Parse(Console.ReadLine() ?? "0");
+    isRepeat = n != 0;
+}    
 
 
 taskName = "Задание  №6. Показать четные числа от 1 до N.";
