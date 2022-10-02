@@ -154,8 +154,6 @@ while(isRepeat) {
     isRepeat = n != 0;
 }    
 
-} //---
-
 
 taskName = "Задание  №9. Дано число из отрезка [10, 99]. Показать наибольшую цифру числа.";
 isRepeat = true;
@@ -170,9 +168,19 @@ while(isRepeat) {
     isRepeat = n != 0;
 }    
 
+} //---
 
 taskName = "Задание №10. Удалить вторую цифру трёхзначного числа.";
-
+while(isRepeat) {
+    Console.WriteLine("----------------------------\n\r"+taskName);
+    Console.Write("Введите целое трехзначное число (ххх): ");
+    intN1 = int.Parse(Console.ReadLine() ?? "0");
+    intN = (intN1/100)*10 + intN1%10;
+    Console.WriteLine("Число после удаления второй цифры из числа "+intN1+" = "+intN);
+    Console.Write("Выполнить задание еще раз? (0-нет, 1-да):");
+    int n = int.Parse(Console.ReadLine() ?? "0");
+    isRepeat = n != 0;
+}    
 
 taskName = "Задание №11. Выяснить, кратно ли число заданному, если нет, вывести остаток.";
 
