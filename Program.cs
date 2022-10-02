@@ -99,6 +99,7 @@ while(isRepeat) {
     Console.WriteLine("----------------------------\n\r"+taskName);
     Console.Write("Введите целое число: ");
     intN1 = int.Parse(Console.ReadLine() ?? "0");
+    Console.Write("Числа от -N до N: ");
     for(int i=(-1)*intN1; i<=intN1; i++) {
         Console.Write(i+" ");
     }
@@ -110,6 +111,21 @@ while(isRepeat) {
 
  
 taskName = "Задание  №6. Показать четные числа от 1 до N.";
+isRepeat = true;
+while(isRepeat) {
+    Console.WriteLine("----------------------------\n\r"+taskName);
+    Console.Write("Введите целое число: ");
+    intN1 = int.Parse(Console.ReadLine() ?? "0");
+    Console.Write("Четные числа от 1 до N: ");
+    for(int i=1; i<=intN1; i++) {
+        if(i%2 == 0)
+            Console.Write(i+" ");
+    }
+    Console.WriteLine("");
+    Console.Write("Выполнить задание еще раз? (0-нет, 1-да):");
+    int n = int.Parse(Console.ReadLine() ?? "0");
+    isRepeat = n != 0;
+}    
 
 
 taskName = "Задание  №7. Показать последнюю цифру трёхзначного числа.";
