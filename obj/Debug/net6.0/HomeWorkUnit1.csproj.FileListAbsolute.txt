@@ -1,0 +1,15 @@
+Z:\GeekBrains\Практические занятия\C_sharp\HomeWorkUnit1\bin\Debug\net6.0\HomeWorkUnit1.exe
+Z:\GeekBrains\Практические занятия\C_sharp\HomeWorkUnit1\bin\Debug\net6.0\HomeWorkUnit1.deps.json
+Z:\GeekBrains\Практические занятия\C_sharp\HomeWorkUnit1\bin\Debug\net6.0\HomeWorkUnit1.runtimeconfig.json
+Z:\GeekBrains\Практические занятия\C_sharp\HomeWorkUnit1\bin\Debug\net6.0\HomeWorkUnit1.dll
+Z:\GeekBrains\Практические занятия\C_sharp\HomeWorkUnit1\bin\Debug\net6.0\HomeWorkUnit1.pdb
+Z:\GeekBrains\Практические занятия\C_sharp\HomeWorkUnit1\obj\Debug\net6.0\HomeWorkUnit1.csproj.AssemblyReference.cache
+Z:\GeekBrains\Практические занятия\C_sharp\HomeWorkUnit1\obj\Debug\net6.0\HomeWorkUnit1.GeneratedMSBuildEditorConfig.editorconfig
+Z:\GeekBrains\Практические занятия\C_sharp\HomeWorkUnit1\obj\Debug\net6.0\HomeWorkUnit1.AssemblyInfoInputs.cache
+Z:\GeekBrains\Практические занятия\C_sharp\HomeWorkUnit1\obj\Debug\net6.0\HomeWorkUnit1.AssemblyInfo.cs
+Z:\GeekBrains\Практические занятия\C_sharp\HomeWorkUnit1\obj\Debug\net6.0\HomeWorkUnit1.csproj.CoreCompileInputs.cache
+Z:\GeekBrains\Практические занятия\C_sharp\HomeWorkUnit1\obj\Debug\net6.0\HomeWorkUnit1.dll
+Z:\GeekBrains\Практические занятия\C_sharp\HomeWorkUnit1\obj\Debug\net6.0\refint\HomeWorkUnit1.dll
+Z:\GeekBrains\Практические занятия\C_sharp\HomeWorkUnit1\obj\Debug\net6.0\HomeWorkUnit1.pdb
+Z:\GeekBrains\Практические занятия\C_sharp\HomeWorkUnit1\obj\Debug\net6.0\HomeWorkUnit1.genruntimeconfig.cache
+Z:\GeekBrains\Практические занятия\C_sharp\HomeWorkUnit1\obj\Debug\net6.0\ref\HomeWorkUnit1.dll
