@@ -108,7 +108,7 @@ while(isRepeat) {
     isRepeat = n != 0;
 }    
 
-
+ 
 taskName = "Задание  №6. Показать четные числа от 1 до N.";
 
 
